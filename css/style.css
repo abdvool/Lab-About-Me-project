@@ -1,7 +1,7 @@
 
 header{
 
-    border: 1px solid black;
+    border-bottom: 1px solid red;
 
 }
 
@@ -26,11 +26,12 @@ li{
 }
 
 
-#info {
+#mypic {
 
-    border-radius: 100%;
+    border-radius: 150%;
     clear: both;
     margin-top: 40px;
+    width: 150px ;
 
 }
 
@@ -46,7 +47,7 @@ background-size: 5000px;
 
 
 #welcome {
-    color: red;
+    color: black;
    font-size: 40px;
    margin-left: 10px;
 
@@ -65,13 +66,18 @@ background-size: 5000px;
 }
 
 
-#egypt {
+.paragraph {
 
 
 color: black;
    font-size: 20px;
    margin-top: 30px;
    margin-left: 20px;
+
+   
+
+   
+
 
 
 
@@ -81,10 +87,11 @@ img {
 
 
 margin-top: 100px;
-width: 30%;
+width: 15%;
 
-margin-left: 50px;
-border-radius: 10%;
+padding-left: 10px;
+border-radius: 5%;
+
 
 
 
@@ -93,18 +100,19 @@ border-radius: 10%;
 
 
 footer {
+    border-top: 1px solid red; 
 
-    margin-left: 20px;
-    margin-top: 30px;
+    padding-left: 10px;
 }
 
 
 
 h2 {
+    border-top: 1px solid red; 
 
     margin-top: 30px;
 
-font-size: 40px;
+font-size: 30px;
 margin-left: 10px;
 
 }
@@ -119,5 +127,31 @@ margin-left: 10px;
 
 
 
+
+}
+
+
+.games1 {
+
+    
+    display: inline-block;
+
+
+    
+    width: 200px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+
+
+
+
+}
+
+h3{
+    display: inline-block;
+
+    width: 200px;
+    padding-left: 50px;
+padding-top: 20px;
 
 }
