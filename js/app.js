@@ -8,14 +8,27 @@ alert('welcome '+ user);
 
 
 
-let username = prompt('Is my name Abd?').toUpperCase();
+let username = prompt('Is my name Abdulrahman?').toUpperCase();
 
-if (username == 'YES' ) {
+switch (username) {
 
-  alert(' Correct ');
-} else {
+  case 'YES':
+  case 'Y':
+  console.log('correct');
+ 
+  alert('Correct');
 
-  alert('wrong');
+  break;
+
+    case 'NO':
+    case 'N':
+
+  alert('My name is Abdulrahman');
+  break;
+
+  default:
+  alert('you need to write yes or no ');
+  break;
 }
 
 
@@ -27,10 +40,7 @@ case '26':
 
   break;
 
-default:
-  alert('you are wrong');
-  console.log('Wrong');
-  break;
+
 }
 
 
@@ -48,34 +58,43 @@ while(password !== user){
 
 
 
-let gym = prompt('Can I lift up 200 KG?');
+let gym = prompt('Can I lift up 200 KG?').toUpperCase();
 
 switch (gym){
 
 case 'YES':
+case 'Y':
   console.log('correct');
   alert('thats correct ❚█══█❚ ');
 
   break;
 
-default:
+case 'NO':
+case 'N':
 
   alert('I can left more than that ❚█══█❚ ? ');
   console.log('wrong');
+  break;
+
+
 }
 
-let languages = prompt('am I speak more than two languages ').toLowerCase();
+let languages = prompt('am I speak more than two languages ').toUpperCase();
 
-switch(languages){
+switch (languages){
 
-case('yes'):
+case('YES'):
+case('Y'):
   alert('correct, I speak English,French,Arabic');
   console.log('correct');
   break;
 
-default:
+case ('NO'):
+case ('N'):
   alert('Wrong, I speak 3 languages' );
   console.log('wrong');
+  
+  break;
 
 
 }
