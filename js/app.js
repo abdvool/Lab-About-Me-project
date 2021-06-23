@@ -10,6 +10,7 @@ alert('welcome '+ user);
 
 let username = prompt('Is my name ahmad?').toUpperCase();
 
+function abd(){
 switch (username) {
 
 case 'YES':
@@ -32,9 +33,12 @@ default:
   alert('you need to write yes or no ');
 
 }
+}
+abd();
 
 
 let age = prompt(' What is my Age now If I was Born in 1995  ');
+function abd1(){
 switch (age) {
 case '26':
   console.log(true);
@@ -47,11 +51,13 @@ default:
 
 
 }
-
+}
+abd1();
 
 
 
 let password = prompt('write your name here to continue ')
+function abd2(){
 
 while(password !== user){
 
@@ -59,11 +65,14 @@ while(password !== user){
 
 
 }
-
+}
+abd2();
 
 
 
 let gym = prompt('Can I lift up 200 KG?').toUpperCase();
+
+function abd3(){
 
 switch (gym){
 
@@ -83,9 +92,14 @@ case 'N':
 
 
 }
+}
+abd3();
+
+
 
 let languages = prompt('am I speak more than two languages ').toUpperCase();
 
+function abd4(){
 switch (languages){
 
 case('YES'):
@@ -103,6 +117,8 @@ case ('N'):
 
 
 }
+}
+abd4();
 
 
 
@@ -111,7 +127,7 @@ alert('Thank your for your time '+ user);
 
 
 
-
+function abd5(){
 for (let i = 0; i < 4; i++) {
   let guess = Number(prompt('guess the right number'));
   if (guess <= 4) {
@@ -138,6 +154,8 @@ for (let i = 0; i < 4; i++) {
 }
 
 }
+}
+abd5();
 
 
 
@@ -152,6 +170,7 @@ for (let i = 0; i < 4; i++) {
 
   let correct = false;
 
+  function abd6(){
   for (let times = 1; times <= 6 ; times++) {
 
     let q = prompt('write 1 name of the 10 richest people').toLowerCase();
@@ -175,7 +194,8 @@ for (let i = 0; i < 4; i++) {
 
   }
 
-
+}
+abd6();
 
 
 
