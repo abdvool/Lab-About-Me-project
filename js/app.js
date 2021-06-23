@@ -113,7 +113,7 @@ alert('Thank your for your time '+ user);
 
 
 for (let i = 0; i < 4; i++) {
-  let guess = prompt('guess the right number');
+  let guess = Number(prompt('guess the right number'));
   if (guess <= 4) {
     alert('to low ');
 
@@ -140,56 +140,42 @@ for (let i = 0; i < 4; i++) {
 }
 
 
-// let richest = ['jeff', 'elon', 'bernard ',' bill ','mark'];
-
-// for (let i = 0; i < 6 ; i++) {
-
-//     let richest = prompt('write  the richest guys in the world');
-
-//     if( i == richest.length ){
-
-//     alert('correct answer') 
-    
-// } else if ( i != richest.length ){
-
-// alert('wrong')
-// }
 
 
 
-// }
 
 
 
-// let richest = ['jeff', 'elon', 'bernard ',' bill ','mark'];
-
-// for (let i = 0; i < 6; i++) {
-
-// let rich = prompt('who are the richest guys in the world ?')
-
-// if ( rich === richest ) {
-
-//   console.log(true);
-//   alert('ture')
-//   break
-  
-  
-// }
 
 
-// else if (rich > 10 ){
+  let rich =['elon', 'mark', 'jeff', 'bill'];
 
-//   alert('wrong')
+  let correct = false;
 
-  
-// } if (rich == 6) {
+  for (let times = 1; times <= 6 ; times++) {
 
-//   alert('there is no more attempt')
-//   console.log(false);
-// }
+    let q = prompt('write 1 name of the 10 richest people').toLowerCase();
+
+    for (let i = 0; i < rich.length; i++){
+
+      if ( q == rich[i]) {
+
+        alert('correct')
+        times = 10;
+        break;
+
+      }
+    }
+    if (correct) {
+      break;
+    }
 
 
-// }
+
+
+  }
+
+
 
 
 
