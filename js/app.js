@@ -6,7 +6,7 @@ let user = prompt('what\'s your name? ')
 
 alert('welcome '+ user);
 
-
+let grade = 0;
 
 let username = prompt('Is my name ahmad?').toUpperCase();
 
@@ -27,6 +27,8 @@ case 'N':
   alert('correct');
   console.log(true);
 
+grade++;
+
   break;
 
 default:
@@ -43,6 +45,8 @@ switch (age) {
 case '26':
   console.log(true);
   alert(true);
+  grade++;
+
   break;
 
 default:
@@ -80,6 +84,7 @@ case 'YES':
 case 'Y':
   console.log(true);
   alert('thats correct ❚█══█❚ ');
+  grade++;
 
   break;
 
@@ -106,6 +111,8 @@ case('YES'):
 case('Y'):
   alert('correct, I speak English,French,Arabic');
   console.log(true);
+  grade++;
+
   break;
 
 case ('NO'):
@@ -120,9 +127,6 @@ case ('N'):
 }
 abd4();
 
-
-
-alert('Thank your for your time '+ user);
 
 
 
@@ -141,6 +145,8 @@ for (let i = 0; i < 4; i++) {
     alert('correct answer')
 
     console.log(true);
+    grade++;
+
     break;
   }
 
@@ -181,6 +187,8 @@ abd5();
 
         alert('correct')
         times = 10;
+        grade++;
+
         break;
 
       }
@@ -199,3 +207,8 @@ abd6();
 
 
 
+
+
+
+alert('your score is ' + grade)
+alert('Thank your for your time '+ user);
