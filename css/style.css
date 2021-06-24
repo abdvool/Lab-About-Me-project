@@ -2,7 +2,7 @@
 header{
 
     border-bottom: 1px solid red;
-
+position: relative;
 }
 
 
@@ -41,6 +41,7 @@ body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarXJ8FU9LbnGzF_C8htn0yuif8lgptHHDxg&usqp=CAU);
 background-repeat: no-repeat;
 background-size: 5000px;
+position: absolute;
 
 }
 
@@ -91,7 +92,7 @@ width: 15%;
 
 padding-left: 10px;
 border-radius: 5%;
-
+position: sticky;
 
 
 
