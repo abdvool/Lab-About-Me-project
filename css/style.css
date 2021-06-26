@@ -34,7 +34,7 @@ body{
 
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarXJ8FU9LbnGzF_C8htn0yuif8lgptHHDxg&usqp=CAU);
 background-repeat: no-repeat;
-background-size: 5000px;
+background-size: 10000px;
 
 }
 
@@ -153,3 +153,16 @@ h3{
 
 }
 
+ol{
+    list-style-type: upper-roman;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+ul{
+
+padding-left: 40px;
+padding-top: 20px;
+
+list-style-type: square;
+}
